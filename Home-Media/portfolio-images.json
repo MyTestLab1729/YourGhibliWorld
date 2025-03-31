@@ -1,0 +1,16 @@
+{
+    "images": [
+        {
+            "src": "portfolio1.jpg",
+            "alt": "Ghibli-inspired portfolio image 1"
+        },
+        {
+            "src": "portfolio2.jpg",
+            "alt": "Ghibli-inspired portfolio image 2"
+        },
+        {
+            "src": "portfolio3.jpg",
+            "alt": "Ghibli-inspired portfolio image 3"
+        }
+    ]
+} 

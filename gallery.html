@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="gallery-page">
+        <header class="gallery-header">
+            <button class="back-button" onclick="window.location.href='index.html'">
+                <span>← Back to Home</span>
+            </button>
+            <h1>My Ghibli Gallery</h1>
+        </header>
+
+        <div class="gallery-container">
+            <div class="gallery-grid">
+                <!-- Gallery images will be loaded here -->
+            </div>
+        </div>
+
+        <div class="lightbox" id="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-image" src="" alt="Enlarged view">
+            <button class="prev-button">❮</button>
+            <button class="next-button">❯</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

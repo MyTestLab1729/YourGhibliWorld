@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Photo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="totoro-loader"></div>
+        <p>Loading magical moments...</p>
+    </div>
+
+    <div class="theme-switcher" id="themeSwitcher">
+        <i class="fas fa-palette theme-icon"></i>
+    </div>
+
+    <main class="home-page">
+        <header class="hero-section">
+            <h1 class="ghibli-title">Welcome to My Ghibli World</h1>
+            <div class="character-intro">
+                <div class="character-image">
+                    <!-- Character image will be loaded here -->
+                </div>
+                <div class="character-description">
+                    <!-- Description will be loaded from text file -->
+                </div>
+            </div>
+        </header>
+
+        <section class="portfolio-section">
+            <div class="portfolio-grid">
+                <!-- Portfolio images will be loaded here -->
+            </div>
+        </section>
+
+        <div class="explore-button-container">
+            <button class="explore-button" onclick="window.location.href='gallery.html'">
+                <span>Explore My Ghibli Gallery</span>
+                <div class="button-spirit"></div>
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
