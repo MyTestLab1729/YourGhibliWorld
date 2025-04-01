@@ -4,7 +4,7 @@ let galleryImages = [];
 let portfolioImages = [];
 
 // GitHub repository configuration
-const GITHUB_REPO = 'GB-Server/GhibliArtServer';
+const GITHUB_REPO = 'GB-Server/MyGhibliArtServer';
 const GITHUB_BRANCH = 'main'; // or 'master' depending on your default branch
 
 // Theme management
